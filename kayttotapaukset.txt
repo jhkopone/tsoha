@@ -1,0 +1,132 @@
+MUISTILISTA-OHJELMAN KÄYTTÖTAPAUKSET
+
+Ohjelmalla on ainoastaan yhden tyyppisiä käyttäjiä: ihmisiä, jotka haluavat tukea 
+askareidensa muistamista arjessaan ohjelman avulla. Heistä käytetään nimitystä käyttäjät.
+
+Käyttäjien käyttötapaukset 
+
+Sisäänkirjautuminen
+
+Käyttäjä: käyttäjä
+Tavoite: kirjautua sisään järjestelmään, jotta päästään käyttämään sen toimintoja
+Laukaisija: käyttäjän halu tarkastella tai kirjata tai muokata askareitaan
+Esiehto: käyttäjä on luonut itselleen käyttäjätunnuksen
+Jälkiehto: käyttäjä on kirjautuneena järjestelmään
+Käyttötapauksen kulku:
+1. Käyttäjä siirtyy järjestelmän sisäänkirjautumissivulle
+2. käyttäjä syöttää käyttäjätunnuksen
+3. Käyttäjä syöttää salasanan
+4. Käyttäjä valitsee kirjautumispainikkeen
+5. Järjestelmä tarkistaa kirjautumistiedot ja jos ne ovat oikein, kirjaa käyttäjän järjestelmään
+Poikkeuksellinen toiminta:
+5a. Mikäli käyttäjä syöttää väärät kirjautumistiedot järjestelmä ilmoittaa virheestä eikä kirjaa käyttäjää sisään
+5b. Mikäli käyttäjä ei ole luonut käyttäjätunnusta hänet ohjataan samoin virheilmoituksessa varmistumaan tunnuksen olemassaolosta
+
+Askareen lisäys
+
+Käyttäjä: käyttäjä
+Tavoite: lisätä järjestelmään suorittamista kaipaava askare
+Laukaisija: askare, jonka käyttäjä haluaa suorittaa myöhemmin
+Esiehto: käyttäjä on kirjautunut järjestelmään
+Jälkiehto: käyttäjän tahtoma askare on kirjattu järjestelmään
+Käyttötapauksen kulku:
+1. Käyttäjä valitsee valikosta askareen lisäyksen
+2. Käyttäjä syöttää askareen tiedot
+3. Käyttäjä valitsee lisäyspainikkeen
+Poikkeuksellinen toiminta: - 
+
+
+Askareen poisto
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Tärkeysasteen lisäys
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Tärkeysasteen poisto
+ 
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+   
+Askareen tärkeyttäminen lisäyksessä
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Luokan lisääminen 
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Luokan poisto
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Askareen luokittelu
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Luokan luokittelu
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+Uloskirjautuminen
+
+Käyttäjä:
+Tavoite:
+Laukaisija:
+Esiehto:
+Jälkiehto:
+Käyttötapauksen kulku:
+Poikkeuksellinen toiminta:
+
+
+
+
+

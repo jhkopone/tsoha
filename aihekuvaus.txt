@@ -1,0 +1,31 @@
+AIHEKUVAUS
+
+Järjestelmän tarkoitus
+
+Toteutetaan ohjelma, joka auttaa käyttäjäänsä muistamaan päivittäiset askareet. Kyseessä on siis eräänlainen sähköinen to-do-lista, johon voidaan kirjata kaikki tekemättömät tehtävät. Askare voidaan sijoittaa johonkin luokkaan (esim. kotityöt) ja luokat voivat myös olla sisäkkäisiä. Askareella voi olla tärkeysluokka, joiden mukaan askareet voidaan listata näkyville. Tällöin ohjelma auttaa käyttäjäänsä kohdistamaan huomionsa kunakin hetkenä aina tärkeimpään suoritettavaan askareeseen.
+
+Toteutus-/toimintaympäristö
+
+Sovellus toteutetaan palvelinympäristössä, joka tukee PHP-ohjelmointikieltä. Tietokanta toteutetaan PostgreSQL-tietokantapalvelinta hyödyntäen, mutta tietokanta on toteutettavissa kohtuullisen pienin muutoksin myös mm. MySQL-tietokantana.
+
+
+
+___________________________________________________
+Alla alkuperäinen tehtävänanto:
+
+Muistilista
+IK10SS1
+
+Nykyihmisillä on niin paljon erilaisia asioita muistettavana. Kuitenkin moniin asioihin keksitty apukeinoja, kuten mm. numeromuistio. Päivän askareihin ei ole kuitenkaan kehitetty laajalti käytössä olevaa ratkaisua. Ossi Opiskelija tarvitsisi itselleen Ossin muistilistan, johon hän voisi listata askareitaan muistiin. Hän haluaisi tapahtumien olevan listassa, joka olisi loogisessa järjestyksessä askareen tärkeyden kanssa. Hänen tulisi pystyä laittamaan erilaisia tärkeysasteita askareille ja luokitella askareita eri ryhmiin. Luokat voivat sisältää aliluokkia.
+
+Ohjelmiston tehtäviä:
+
+    Askereen lisäys ja poisto
+    Tärkeysasteen lisäys ja poisto
+    Askareen tärkeyttäminen lisäyksessä tai myöhemmin
+    Luokkien lisäys ja poisto
+    Askareiden luokittelu
+    Luokat voivat olla sisäkkäisiä
+    Vaatii sisäänkirjautumisen
+
+
