@@ -27,7 +27,7 @@ if (isset($salasanat[$tunnus])) {
 
 <p>Ongelmia kirjautumisessa!</p>
 <p><a href="http://jhkopone.users.cs.helsinki.fi/tsoha/index.php">Takaisin kirjautumiseen</a></p>
-
+<p><a href="http://jhkopone.users.cs.helsinki.fi/tsoha/tunnuksetluonti.php">Luo uusi käyttäjätunnus</a></p>
 
 
 
