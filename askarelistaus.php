@@ -11,11 +11,14 @@ $kysely->execute();
     <title>Askarelistaus</title>
   </head>
   <body>
+	
 	<?php
 	kayttajatiedot();
 	valikko();
 	?>
-    	<p>Kaikki toimitettavat askareet</p>
+    	<p>Kaikki toimitettavat askareet <br>
+	Voit poistaa askareen valitsemalla sen valintaruudun ja painamalla poista-painiketta
+	</p>
 	<form action>
 	<table border>
 	<tr>
@@ -40,5 +43,13 @@ $kysely->execute();
 	echo "<input type=\"submit\" value= \"poista\">";
 	?>
 	</form>
+	<p>Lisää askare järjestelmään alla olevalla lomakkeella</p>
+	<form action="" method="">
+	Nimi: <input type="text" name=""> <br>
+	Luokka: <select name="luokka"> </select> <br>
+	Tärkeysaste: <select name="taste"> </select><br>
+	<input type="submit" value= "Lisää">
+	</form>
+
   </body>
 </html>

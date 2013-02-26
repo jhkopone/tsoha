@@ -5,6 +5,7 @@ include ("yhteys.php");
 function kayttajatiedot() {?>
 	<p align="right">
 	<b>Olet kirjautunut sisään tunnuksella: <?php echo $_SESSION["kayttaja"]; ?> </b><br>
+	<a href="salasananVaihto.php"> vaihda salasana </a> | 
 	<a href="http://jhkopone.users.cs.helsinki.fi/tsoha/uloskirjautuminen.php">kirjaudu ulos</a>
 	<hr>
 	</p>
