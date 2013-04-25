@@ -3,6 +3,12 @@ include("yla.php");
 $sql = "select * from askare";
 $kysely = $yhteys->prepare($sql);
 $kysely->execute();
+$sql2 = "select * from luokka";
+$kysely2 = $yhteys->prepare($sql2);
+$kysely2->execute();
+$sql3 = "select * from tarkeysaste";
+$kysely3 = $yhteys->prepare($sql3);
+$kysely3->execute();
 ?>
 
 <!DOCTYPE html>
@@ -44,10 +50,28 @@ $kysely->execute();
 	?>
 	</form>
 	<p>Lisää askare järjestelmään alla olevalla lomakkeella</p>
-	<form action="" method="">
-	Nimi: <input type="text" name=""> <br>
-	Luokka: <select name="luokka"> </select> <br>
-	Tärkeysaste: <select name="taste"> </select><br>
+	<form action="askareenlisays.php" method="post">
+	Nimi: <input type="text" name="nimi"> <br>
+	Luokka: <select name="luokka">
+	<?php 
+	while ($rivi2 = $kysely2-> fetch()) {
+		echo "<option value=\""; 
+		echo $rivi2["id"];
+		echo "\">";
+		echo $rivi2["nimi"];
+		}
+	?>	 
+	</select> <br>
+	Tärkeysaste: <select name="taste"> 
+	<?php 
+	while ($rivi3 = $kysely3-> fetch()) {
+		echo "<option value=\""; 
+		echo $rivi3["id"];
+		echo "\">";
+		echo $rivi3["nimi"];
+		}
+	?>	
+	</select><br>
 	<input type="submit" value= "Lisää">
 	</form>
 
